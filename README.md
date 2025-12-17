@@ -49,7 +49,7 @@ Le projet combine des **fondements théoriques**, une **interprétation géomét
 
 1. Importation et préparation des données
 2. Analyse exploratoire (moyennes, écarts-types, corrélations)
-3. Application de l’ACP avec `prcomp()`
+3. Application de l’ACP
 4. Sélection des composantes principales pertinentes
 5. Application de l’AFD sur les composantes retenues
 6. Visualisation des projections et de l’axe discriminant
@@ -60,12 +60,6 @@ Le projet combine des **fondements théoriques**, une **interprétation géomét
 ## 🛠 Outils et technologies
 
 - **Langage :** R
-- **Bibliothèques principales :**
-  - `stats`
-  - `MASS`
-  - `ggplot2`
-  - `factoextra`
-  - `caret`
 
 ---
 
@@ -75,15 +69,6 @@ Le projet combine des **fondements théoriques**, une **interprétation géomét
 - Séparation nette entre cellules bénignes et malignes
 - Fort pouvoir discriminant de l’AFD après réduction de dimension par ACP
 - Visualisation claire de la classification sur l’axe discriminant
-
----
-
-## 📁 Contenu du dépôt
-
-- `src/` : scripts R (analyse exploratoire, ACP, AFD)
-- `data/` : jeu de données
-- `presentation/` : présentation académique du projet (PDF)
-- `results/` : figures et résultats générés
 
 ---
 
